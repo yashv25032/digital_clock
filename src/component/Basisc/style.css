@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 28, 28);
+    
+}
+
+.main_div{
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 5px 10px 5px  #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_div h1{
+    color: #fff;
+    font-size: 70px;
+}
